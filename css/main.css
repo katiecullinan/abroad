@@ -146,7 +146,7 @@ nav a:active {
 	}
 	
 nav a:hover {
-	font-style: italic;
+	font-weight: 700;
 	}	
 	
 header {
@@ -179,11 +179,13 @@ header {
 	}
 	
 #intro-text {
-	font-family: 'Noto Serif', serif;
+	font-family: 'Merriweather', 'Noto Serif', serif;
+	font-weight: 300;
 	position: absolute;
 	width: 33%;
 	color: white;
 	bottom: 0;
+	font-size: 16px;
 }	
 
 #pattern {
@@ -195,13 +197,14 @@ header {
 
 .textsection {
 	max-width: 1200px;
-	text-align: right;
+	
 	margin: 4em auto;
 	}
 	
 
 #insidebox {
 	max-width: 1200px;
+	text-align: right;
 	position: absolute;
 	}
 	
@@ -211,7 +214,7 @@ header {
 	}
 	
 #insidebox p{
-	font-family: 'Noto Serif', serif;
+	font-family: 'Merriweather', 'Noto Serif', serif;
 	float: right;
 	width: 50%;
 	}
@@ -238,11 +241,17 @@ opacity: .7;
 	
 	
 .bottomsection {
-	width: 100%;
-	margin: 4em auto;
+	max-width: 1200px;
+	margin: 4em auto 4em auto;
 	display: block;
 	clear: both;
 	}	
+	
+.bottomsection hr {	
+	border-width: 2px;
+	color: #2F3566;
+	margin: 20px auto;
+	}
 	
 .button {
 	margin: auto;
@@ -260,6 +269,27 @@ opacity: .7;
 	font-size: 24px;
 	}	
 
+.bottomnav {
+	
+	margin: auto;
+	text-align: left;
+	float: left;
+	
+}
+
+.bottomnav a {
+	color: #989898; 
+	font-size: 12px;
+	}
+	
+.bottomnav a:hover {
+	font-style: inherit;
+	}
+	
+.social img{
+	float: right;
+	width: 15%;
+	}	
 	
 /* ==========================================================================
    Cover page
@@ -284,8 +314,12 @@ opacity: .7;
 	width: 90%
 	}
 	
+	.bottomsection {
+	width: 90%
+	}
+	
 	.mobile-view {display: inline-block;
-		width: 100%}
+		width: 100%
 	
 	.nav-button {
     float: right;
