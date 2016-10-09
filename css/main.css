@@ -201,22 +201,37 @@ header {
 	
 
 #insidebox {
-	width: 50%;
-	float: right;}
+	max-width: 1200px;
+	position: absolute;
+	}
+	
 
 #insidebox h1{	
 	color: #2F3566;
 	}
 	
 #insidebox p{
-	font-family: 'Noto Serif', serif;}
+	font-family: 'Noto Serif', serif;
+	float: right;
+	width: 50%;
+	}
 	
 #box {
 float: left;
-width: 50%;
+width: 70%;
+z-index: -2;
 }
 	
-	
+.foodimg {
+width: 40%;
+z-index: -2;
+}	
+
+
+.foodimg:hover {
+opacity: .7;
+}
+
 	#map {
 	width: 100%;
 	}
@@ -255,18 +270,19 @@ width: 50%;
 .mobile-view {display: none;}
 .mobile-nav {display: none;}
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1200px) {
 	
-	#clockdiv{
-	font-size: 20px;
+	.intro	{
+	width: 90%;
 	}
 	
-	.alien-gifs {
-	width: 100%;
-	
+	.textsection {
+	width: 90%;
 	}
 	
-	
+	#insidebox {
+	width: 90%
+	}
 	
 	.mobile-view {display: inline-block;
 		width: 100%}
