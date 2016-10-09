@@ -193,26 +193,58 @@ header {
 	opacity: .8;
 }
 
-#home-section2 {
+.textsection {
 	max-width: 1200px;
 	text-align: right;
 	margin: 4em auto;
 	}
 	
-#home-section2 h1{	
+
+#insidebox {
+	width: 50%;
+	float: right;}
+
+#insidebox h1{	
 	color: #2F3566;
 	}
 	
-#home-section2 p{
-	font-family: 'Noto Serif', serif;
-	width: 50%;
-	float: right;
-	}
+#insidebox p{
+	font-family: 'Noto Serif', serif;}
+	
+#box {
+float: left;
+width: 50%;
+}
 	
 	
 	#map {
 	width: 100%;
 	}
+	
+	
+.bottomsection {
+	width: 100%;
+	margin: 4em auto;
+	display: block;
+	clear: both;
+	}	
+	
+.button {
+	margin: auto;
+	width: 200px;
+	background-color:  #2F3566;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px;
+	}
+	
+.button a{
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+	}	
+
 	
 /* ==========================================================================
    Cover page
