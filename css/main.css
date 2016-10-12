@@ -110,7 +110,9 @@ body {
 }
 
 menu {
-	padding-right: 40px;
+	padding: 0;
+	margin: 1em auto 2em auto;
+	width:90%;
 }
 
 
@@ -162,13 +164,15 @@ header {
 	color: white;
 	text-transform: uppercase;
 	margin: -13px auto -40px auto;
+	
 	}
 			
 .intro	{
-	max-width: 1200px;
+	
 	margin:auto;
 	position:relative;
 	z-index: -1;
+	width:100%;
 
 }
 
@@ -178,52 +182,98 @@ header {
 	z-index: -1;
 	}
 	
+.introp {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+}
+	
 #intro-text {
 	font-family: 'Merriweather', 'Noto Serif', serif;
 	font-weight: 300;
 	position: absolute;
-	width: 33%;
+	width: 50%;
 	color: white;
 	bottom: 0;
-	font-size: 16px;
+	font-size: 18px;
 }	
 
 #pattern {
-
 	position: absolute;
 	width: 100%;
 	opacity: .8;
 }
 
+
 .textsection {
 	max-width: 1200px;
-	
 	margin: 4em auto;
+	clear: both;
+	width:90%;
+
+	overflow:hidden;
+	
+	}
+	
+.textsection img {
+	width: 100%;
+	max-width: 1200px;
+	}	
+
+#explanation  {
+	max-width: 1200px;
+	text-align: left;
+	margin-top: 2em;
+	
+	
 	}
 	
 
+#explanation p{
+	font-family: 'Merriweather', 'Noto Serif', serif;
+	width: 48%;
+	margin: 0;
+	float: right;
+	font-size: 18px;
+	
+	}
+	
+#explanationimg{	
+	width: 50%;
+	z-index: -2;
+	float: left;
+	margin: 0;
+
+	
+	}
+
 #insidebox {
 	max-width: 1200px;
-	text-align: right;
-	position: absolute;
+	text-align: left;
+	
+	float: left;
+	width: 50%;
 	}
 	
 
 #insidebox h1{	
 	color: #2F3566;
+	margin: 0;
+	font-size: 30px;
 	}
 	
 #insidebox p{
 	font-family: 'Merriweather', 'Noto Serif', serif;
-	float: right;
-	width: 50%;
+	font-size: 18px;
 	}
 	
 #box {
-float: left;
-width: 70%;
+float: right;
+width: 50%;
 z-index: -2;
 }
+
+
 	
 .foodimg {
 width: 40%;
@@ -235,10 +285,60 @@ z-index: -2;
 opacity: .7;
 }
 
-	#map {
+.majicpattern {
 	width: 100%;
+	
+	
+	}
+
+#bluepattern {
+	opacity: .3;
+	width: 100%;
+	z-index: -10;
+	position: absolute;
+	}	
+	
+	
+.guide {max-width: 1200px;
+	margin: 4em auto;
+	clear: both;
+	width:90%;
+	
+	overflow:hidden;
 	}
 	
+.majic {
+	width: 50%;
+
+	
+}	
+
+.majic p {
+	font-family: 'Merriweather', 'Noto Serif', serif;
+	font-size: 18px;
+	}
+	
+.majic img {
+	width: 100%;
+	}	
+
+.majic h1 {
+	color: #2F3566;
+	}
+
+
+.boxtext p{
+	border: 1px solid #2F3566;
+	font-family: 'Karla', sans-serif;
+	color: #2F3566;
+	padding: 2px;
+	width: 15%;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: center;
+	
+	
+	}
 	
 .bottomsection {
 	max-width: 1200px;
@@ -247,7 +347,7 @@ opacity: .7;
 	clear: both;
 	}	
 	
-.bottomsection hr {	
+hr {	
 	border-width: 2px;
 	color: #2F3566;
 	margin: 20px auto;
@@ -291,10 +391,30 @@ opacity: .7;
 	width: 15%;
 	}	
 	
-/* ==========================================================================
-   Cover page
+	
+	/* ==========================================================================
+ explore
    ========================================================================== */
 
+	
+	#map {
+	width: 100%;
+	}
+		
+	.thaiheader {
+	text-align: center;
+	}
+		
+	.thaiheader p{
+	font-family: 'Merriweather', 'Noto Serif', serif;
+	margin-bottom: 0;
+	}
+	
+	.thaiheader h1{
+	color: #2F3566;
+	margin-top: 0;
+	}
+	
 
 
 .mobile-view {display: none;}
@@ -372,7 +492,7 @@ opacity: .7;
   }  
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
 
 .alien-gifs img {
 	max-width: 300px;
