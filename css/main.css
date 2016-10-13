@@ -285,6 +285,28 @@ z-index: -2;
 opacity: .7;
 }
 
+.newregions h1{
+	text-align: center;
+	color: #2F3566;
+}
+
+.regions {
+	width: 33%;
+	float: left;
+	text-align: center;
+	font-family: 'Merriweather', 'Noto Serif', serif;
+	font-size: 18px;
+	padding-left: 0;
+	
+}
+
+
+.regions li {
+	list-style: none;
+	padding: 20px;
+	}
+
+
 .majicpattern {
 	width: 100%;
 	
@@ -415,7 +437,16 @@ hr {
 	margin-top: 0;
 	}
 	
-
+.disclaimer {
+	font-size: 10px;
+	color: gray;
+	width: 100%;
+	max-width: 1200px;
+	padding: 10px;
+	margin: auto;
+	
+	clear: both;
+	}
 
 .mobile-view {display: none;}
 .mobile-nav {display: none;}
