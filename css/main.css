@@ -113,17 +113,18 @@ menu {
 	padding: 0;
 	margin: 1em auto 2em auto;
 	width:90%;
+	overflow: hidden;
 }
 
 
-nav {
+.big-nav {
 	text-align:right;
 	overflow: hidden;
 	padding: 0;
 	color: #253698;
 	}
 	
-nav ul {
+.big-nav ul {
 	float: right;
     text-decoration: none;
     list-style: none;
@@ -131,7 +132,7 @@ nav ul {
     }	
 
 	
-nav a {
+.big-nav a {
 
 	display: inline-block;
 	padding: 12px;
@@ -142,9 +143,7 @@ nav a {
 	
 	}		
 
-nav a:active {
-	font-weight: 700;
-	}
+
 	
 nav a:hover {
 
@@ -364,6 +363,9 @@ hr {
 .bottomnav a {
 	color: #989898; 
 	font-size: 12px;
+	text-decoration: none;
+	padding: 12px;
+	text-transform: uppercase;
 	}
 	
 .bottomnav a:hover {
@@ -533,19 +535,34 @@ hr {
 	}
 	
 	
-	.mobile-view {display: inline-block;
-		width: 100%
+    
+    
+.mobile-view {display: none;}
+.mobile-nav {display: none;}
+    
+  }  
+
+
+@media only screen and (max-width: 750px) {
+
+	header {
+	
+	}
 	
 	.nav-button {
-    float: right;
-    width: 40px;
-    padding: 10px;
-    display: block;
+   	display: inline-block;
+   float: right;
+   margin: 1em 0 1em 0;
+	padding: 12px;
+	text-decoration:none;
+	color: #253698;
+	background-color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+	border: 1px solid #253698;
     }
     
-    .subhead {
-	width: 90%;}
-	
+  
 	.big-nav {
 	display: none;
 	}
@@ -557,39 +574,11 @@ hr {
 	padding: 0;
 	}
 	
-	.mobile-nav li a{
-	color: black;
-	text-decoration: none;
-	text-align: right;
-		}
-		
-	.mobile-nav li a:hover{		
-	background-color: #BCF57E;}
-		
-	.mobile-nav li {
-	list-style: none;
-    text-align: center;
-    padding: 15px;
-    border-top: 1px solid white;}
-    
-    .story-box{
-    width:100%;
-    }
-    
-    .story-box-b{
-    width:100%;
-    }
-    
-  }  
-
-
-@media only screen and (max-width: 750px) {
-
 #intro-text {
 	width: 100%;
 	color: black;
 	position: relative;
-	margin-top: 1em;
+	margin-top: 2em;
 	font-weight: 400;
 	font-size: 14px;
 	}
@@ -614,7 +603,7 @@ hr {
 	
 .boxtext p{
 width: 90%;
-margin: 1em auto;
+margin: 2em auto;
 	font-size: 14px;
 
 }
@@ -645,7 +634,7 @@ margin: 1em auto;
 	}				
 	
 #explanation p{
-margin-top: 1em;
+margin-top: 2em;
 width: 100%;
 font-size: 14px;
 	}	
@@ -657,7 +646,10 @@ font-size: 14px;
 .dishes p, .majic p, .feature p{
 font-size: 14px;
 	}	
-	
+.majicpattern {
+	width: 100%;
+	}
+		
 .regions li {
 	font-size: 14px;
 	padding: 10px;
