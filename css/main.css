@@ -327,6 +327,7 @@ opacity: .7;
 	margin: 4em auto 2em auto;
 	display: block;
 	clear: both;
+	width: 100%
 	}	
 	
 hr {	
@@ -531,9 +532,6 @@ hr {
 	width: 90%
 	}
 	
-	.bottomsection {
-	width: 90%
-	}
 	
 	.mobile-view {display: inline-block;
 		width: 100%
@@ -662,6 +660,7 @@ font-size: 14px;
 	
 .regions li {
 	font-size: 14px;
+	padding: 10px;
 	}		
 	
 .featureimg {
