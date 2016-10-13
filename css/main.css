@@ -598,6 +598,7 @@ hr {
 	
 .introp{
 	margin:0;
+	width: 100%;
 	}	
 	
 .thaipictures2 {
@@ -614,7 +615,7 @@ hr {
 	}
 	
 .boxtext p{
-width: 30%;
+width: 90%;
 margin: 1em auto;
 	font-size: 1em;
 
