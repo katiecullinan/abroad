@@ -120,8 +120,7 @@ nav {
 	text-align:right;
 	overflow: hidden;
 	padding: 0;
-	color: #2F3566;
-	
+	color: #253698;
 	}
 	
 nav ul {
@@ -135,9 +134,9 @@ nav ul {
 nav a {
 
 	display: inline-block;
-	padding: 10px;
+	padding: 12px;
 	text-decoration:none;
-	color: #2F3566;
+	color: #253698;
 	text-transform: uppercase;
 	font-size: 14px;
 	
@@ -148,12 +147,13 @@ nav a:active {
 	}
 	
 nav a:hover {
-	font-weight: 700;
+
+	border: 1px solid #253698;
 	}	
 	
 header {
 	text-align: center;
-	color: #2F3566;
+	color: #253698;
 	font-weight: 700;
 	font-size: 30px;
 	text-transform: uppercase;
@@ -257,7 +257,7 @@ header {
 	
 
 #insidebox h1{	
-	color: #2F3566;
+	color: #253698;
 	margin: 0;
 	font-size: 30px;
 	}
@@ -287,7 +287,7 @@ opacity: .7;
 
 .newregions h1{
 	text-align: center;
-	color: #2F3566;
+	color: #253698;
 }
 
 .regions {
@@ -307,52 +307,12 @@ opacity: .7;
 	}
 
 
-.majicpattern {
-	width: 100%;
-	
-	
-	}
-
-#bluepattern {
-	opacity: .3;
-	width: 100%;
-	z-index: -10;
-	position: absolute;
-	}	
-	
-	
-.guide {max-width: 1200px;
-	margin: 4em auto;
-	clear: both;
-	width:90%;
-	
-	overflow:hidden;
-	}
-	
-.majic {
-	width: 50%;
-
-	
-}	
-
-.majic p {
-	font-family: 'Merriweather', 'Noto Serif', serif;
-	font-size: 18px;
-	}
-	
-.majic img {
-	width: 100%;
-	}	
-
-.majic h1 {
-	color: #2F3566;
-	}
 
 
 .boxtext p{
-	border: 1px solid #2F3566;
+	border: 1px solid #253698;
 	font-family: 'Karla', sans-serif;
-	color: #2F3566;
+	color: #253698;
 	padding: 2px;
 	width: 15%;
 	text-transform: uppercase;
@@ -364,21 +324,21 @@ opacity: .7;
 	
 .bottomsection {
 	max-width: 1200px;
-	margin: 4em auto 4em auto;
+	margin: 4em auto 2em auto;
 	display: block;
 	clear: both;
 	}	
 	
 hr {	
 	border-width: 2px;
-	color: #2F3566;
+	color: #253698;
 	margin: 20px auto;
 	}
 	
 .button {
-	margin: auto;
+	margin: 0 auto 4em auto;
 	width: 200px;
-	background-color:  #2F3566;
+	background-color:  #253698;
 	color: white;
 	text-transform: uppercase;
 	text-align: center;
@@ -388,7 +348,8 @@ hr {
 .button a{
 	text-decoration: none;
 	color: white;
-	font-size: 24px;
+	font-size: 20px;
+	font-weight: 400;
 	}	
 
 .bottomnav {
@@ -406,6 +367,7 @@ hr {
 	
 .bottomnav a:hover {
 	font-style: inherit;
+	border: none;
 	}
 	
 .social img{
@@ -433,12 +395,112 @@ hr {
 	}
 	
 	.thaiheader h1{
-	color: #2F3566;
+	color: #253698;
 	margin-top: 0;
 	}
 	
+.majicpattern {
+	width: 100%;
+	
+	
+	}
+	
+.thaivideo	{
+	width: 50%;
+	
+
+	}
+	
+.thaipictures {
+	width: 55%;
+	float: right;
+	}	
+	
+#thaipic1 {
+
+	width: 100%;
+	padding: 2%;
+
+	}
+	
+.thaipictures2 {
+	width: 55%;
+	float: left;
+	}	
+		
+
+#thaipic2 {
+
+	width: 100%;
+	padding: 2%;
+	
+	}	
+
+
+#bluepattern {
+	opacity: .3;
+	width: 100%;
+	z-index: -10;
+	position: absolute;
+	}	
+	
+	
+.dishes {
+	max-width: 1200px;
+	margin: 4em auto;
+	clear: both;
+	width:90%;
+	
+	overflow:hidden;
+	}
+	
+.guide {max-width: 1200px;
+	margin: 4em auto;
+	clear: both;
+	width:90%;
+	
+	overflow:hidden;
+	}
+	
+.majic {
+	width: 50%;
+
+	
+}	
+
+.majic p {
+	font-family: 'Merriweather', 'Noto Serif', serif;
+	font-size: 18px;
+	}
+	
+.majic img {
+	width: 100%;
+	}	
+
+.majic h1 {
+	color: #253698;
+	}
+	
+.featureimg {
+	float: left;
+	width: 50%;
+}	
+
+.feature {
+	width:50%;
+	float: right;
+	}	
+.feature  h1 {
+	color: #253698;
+	}
+		
+.feature p {
+	font-family: 'Merriweather', 'Noto Serif', serif;
+	font-size: 18px;
+	}	
+	
 .disclaimer {
-	font-size: 10px;
+	font-size: 12px;
 	color: gray;
 	width: 100%;
 	max-width: 1200px;
@@ -451,7 +513,7 @@ hr {
 .mobile-view {display: none;}
 .mobile-nav {display: none;}
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
 	
 	.intro	{
 	width: 90%;
@@ -523,12 +585,111 @@ hr {
   }  
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 750px) {
 
-.alien-gifs img {
-	max-width: 300px;
+#intro-text {
+	width: 100%;
+	color: black;
+	position: relative;
+	margin-top: 1em;
+	font-weight: 400;
+	font-size: 1em;
+	}
+	
+.introp{
+	margin:0;
+	}	
+	
+.thaipictures2 {
+	width: 100%;
+	}	
+	
+	
+.thaipictures{
+	width: 100%;
+	}
+	
+.thaivideo{
+	width: 100%;
+	}
+	
+.boxtext p{
+width: 30%;
+margin: 1em auto;
+	font-size: 1em;
+
+}
+
+
+
+.boxtext {
+	margin: auto;
+	text-align: center;
 	}
 
+#insidebox {
+	width: 100%;
+
+	}
+	
+#insidebox p {
+		font-size: 1em;
+		}	
+
+#box {
+	width: 100%;
+	}		
+
+#explanationimg {
+
+	width: 100%;
+	}				
+	
+#explanation p{
+margin-top: 1em;
+width: 100%;
+	font-size: 1em;
+	}	
+	
+.dishes, .majic, .feature {
+	width: 100%;
+	}	
+
+.dishes p, .majic p, .feature p{
+	font-size: 1em;
+	}		
+	
+.featureimg {
+	width: 100%;
+	}
+	
+.dishpic	{
+	width: 50%;
+	}
+	 	
+.social img {
+	width: 30%;
+	margin: auto;
+	float: none;
+	}
+	
+.social {
+	width: 100%;
+	text-align: center;
+	margin: 10px auto;
+	
+	}
+.bottomnav{
+	text-align: center;
+	width: 100%;
+		margin: auto;
+			float: none;
+	}	
+	
+.disclaimer {
+	width 100%;
+	text-align: center;
+	}	
 
 }
 
