@@ -593,7 +593,7 @@ hr {
 	position: relative;
 	margin-top: 1em;
 	font-weight: 400;
-	font-size: 1em;
+	font-size: 14px;
 	}
 	
 .introp{
@@ -617,7 +617,7 @@ hr {
 .boxtext p{
 width: 90%;
 margin: 1em auto;
-	font-size: 1em;
+	font-size: 14px;
 
 }
 
@@ -634,7 +634,7 @@ margin: 1em auto;
 	}
 	
 #insidebox p {
-		font-size: 1em;
+	font-size: 14px;
 		}	
 
 #box {
@@ -649,7 +649,7 @@ margin: 1em auto;
 #explanation p{
 margin-top: 1em;
 width: 100%;
-	font-size: 1em;
+font-size: 14px;
 	}	
 	
 .dishes, .majic, .feature {
@@ -657,7 +657,11 @@ width: 100%;
 	}	
 
 .dishes p, .majic p, .feature p{
-	font-size: 1em;
+font-size: 14px;
+	}	
+	
+.regions li {
+	font-size: 14px;
 	}		
 	
 .featureimg {
@@ -691,6 +695,10 @@ width: 100%;
 	width 100%;
 	text-align: center;
 	}	
+	
+h1 {
+font-size:1.5em;
+}	
 
 }
 
