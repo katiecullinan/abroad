@@ -450,11 +450,74 @@ hr {
 	
 .dishes {
 	max-width: 1200px;
-	margin: 4em auto;
+	margin: 0;
 	clear: both;
-	width:90%;
+	width:100%;
 	
 	overflow:hidden;
+	}
+
+.dishpic {
+	width: 24%;
+	    float: left;
+    height: auto;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid #fbfbfb;
+    position: relative;
+}
+
+
+span.image-title {
+  	background-color: #253698;
+  	color: white;
+  	text-align: center;
+  	cursor: pointer;
+  	display: table;
+  	height: 100%;
+ 	left: 0;
+  	position: absolute;
+  	bottom: -1px;
+  	width: 100%;
+   	opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+	.image-title span {
+	  display: table-cell;
+	  text-align: center;
+	  vertical-align: middle;
+	  height: 100%;
+	  font-weight: 400;
+	  font-size: 16px;
+	  padding: 2em;
+	  margin: auto;
+	 
+	 	font-family: 'Merriweather', 'Noto Serif', serif;	
+	 
+	}
+
+.dishpic a {
+    width: 100%;
+    display: block;
+}
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+.dishpic a:hover span.image-title {
+  opacity: 1;
+}
+
+.dishpic a:hover{
+	background-color: #fbfbfb;
+}
+
+
+.dishpic1:hover {
+
 	}
 	
 .guide {max-width: 1200px;
@@ -513,7 +576,33 @@ hr {
 	clear: both;
 	}
 
-.mobile-view {display: none;}
+	/* ==========================================================================
+order
+   ========================================================================== */
+   
+  .boxgif {
+  	width: 100%;
+  	text-align: center;
+  	}
+  
+  #boxgif {
+  	width: 30%;
+  	}	
+  	
+  	.ordertext {
+  		font-family: 'Merriweather', 'Noto Serif', serif;
+	font-size: 18px;
+	text-align: center;
+	}
+	
+.social {
+padding-right: 12px;
+}	
+  	
+  	 
+   
+   
+.nav-button {display: none;}
 .mobile-nav {display: none;}
 
 @media only screen and (max-width: 1000px) {
@@ -537,7 +626,7 @@ hr {
 	
     
     
-.mobile-view {display: none;}
+.nav-button {display: none;}
 .mobile-nav {display: none;}
     
   }  
@@ -554,7 +643,7 @@ hr {
 	}
 	
 	.nav-button {
-   
+   display: block;
    float: right;
    margin: 1em 0 1em 0;
 	padding: 12px;

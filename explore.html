@@ -30,17 +30,18 @@
 		<a href="#">Blue Apron Home</a> 
 		</nav>
 		
-		 <div class="mobile-view">
-    	<img class="nav-button" src="img/mobile-nav.png" alt="Mobile Navigation" data-pin-nopin="true">
-    	</div>	
+		 <div class="nav-button">
+    	<a href="#" > Menu</a>
+    	</div>
     	
     	<ul class="mobile-nav">		
-			<li class="nav-item">	<a href="index.html">Abroad</a> </li>
-    		<li class="nav-item">	<a href="explore.html">Explore</a>  </li>
+			<li class="nav-item"><a href="index.html">Abroad</a> </li>
+    		<li class="nav-item"><a href="explore.html">Explore</a>  </li>
     		<li class="nav-item"><a href="order.html">Order</a> </li>
    			<li class="nav-item"> <a href="#">Blue Apron Home</a> </li>
 		
 		</ul>
+
        </menu>
        
       
@@ -93,8 +94,48 @@
    <div class="wow fadeInUp textsection" >
     <div class="boxtext"> <p>Dishes </p> </div>
     <div class="dishes wow fadeIn ">
-    <img class="dishpic">
     
+   
+    <div id="pic1" class="dishpic">
+    <a href="#">	
+			 <img  src="css/mooping.jpg">
+			<span class="image-title"> <span>Moo Ping</span>
+			</span>
+		</a>
+				
+			
+    </div>
+    
+     <div id="pic2" class="dishpic">
+     
+     <a href="#">	
+			 <img  src="css/kaengpa.jpg">
+			<span class="image-title"> <span>Kaeng pa</span>
+			</span>
+		</a>
+		
+
+    </div>
+    
+     <div id="pic3" class="dishpic">
+      <a href="#">	
+			 <img src="css/namphig.jpg">
+			<span class="image-title"> <span>Nam phig</span>
+			</span>
+		</a>
+   
+    </div>
+    
+     <div id="pic4" class="dishpic">
+       <a href="#">	
+			  <img  src="css/saiua.jpg">
+			<span class="image-title"> <span>Sai ua</span>
+			</span>
+		</a>
+   
+   
+    </div>
+
     </div>
     
     
@@ -180,7 +221,11 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
-        
+    <script>
+$(".nav-button").click(function(){
+  $(".mobile-nav").toggle();
+}); 
+</script>     
         
     </body>
 </html>
