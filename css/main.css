@@ -383,9 +383,14 @@ hr {
  explore
    ========================================================================== */
 
-	
+	.exploreintro {
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	}
 	#map {
 	width: 100%;
+
 	}
 		
 	.thaiheader {
@@ -564,6 +569,19 @@ ul.img-list li:hover span.text-content {
 	font-family: 'Merriweather', 'Noto Serif', serif;
 	font-size: 18px;
 	}	
+	
+	
+.learnmore a{
+	text-align: center;
+		font-family: 'Merriweather', 'Noto Serif', serif;
+	font-size: 18px;
+	text-decoration: none;
+	color: #253698;
+	}	
+	
+.learnmore {	
+text-align: center;
+}
 	
 .disclaimer {
 	font-size: 12px;
