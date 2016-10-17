@@ -346,13 +346,52 @@ hr {
 	padding: 10px;
 	}
 	
+	
+	
 .button a{
 	text-decoration: none;
 	color: white;
 	font-size: 20px;
 	font-weight: 400;
 	}	
+	
+.signupbutton {
+	margin: 0 auto 4em auto;
 
+	width: 300px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	
+	}	
+
+
+
+.signupbutton a:hover{
+	color:  #1C2673;
+
+	
+	background-color: white;
+	border: 1px solid #1C2673;
+	}
+	
+	
+.signupbutton a{	
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	display: block;
+	padding: 12px;
+	background-color:  #1C2673;
+	}	
+	
+.signups {
+	float: left;
+	width: 50%;
+	margin-top: 2em;
+	}	
+	
 .bottomnav {
 	
 	margin: auto;
