@@ -121,7 +121,7 @@ menu {
 	text-align:right;
 	overflow: hidden;
 	padding: 0;
-	color: #253698;
+	color: #1C2673;
 	}
 	
 .big-nav ul {
@@ -137,7 +137,7 @@ menu {
 	display: inline-block;
 	padding: 12px;
 	text-decoration:none;
-	color: #253698;
+	color: #1C2673;
 	text-transform: uppercase;
 	font-size: 14px;
 	
@@ -147,12 +147,12 @@ menu {
 	
 nav a:hover {
 
-	border: 1px solid #253698;
+	border: 1px solid #1C2673;
 	}	
 	
 header {
 	text-align: center;
-	color: #253698;
+	color: #1C2673;
 	font-weight: 700;
 	font-size: 30px;
 	text-transform: uppercase;
@@ -256,7 +256,7 @@ header {
 	
 
 #insidebox h1{	
-	color: #253698;
+	color: #1C2673;
 	margin: 0;
 	font-size: 30px;
 	}
@@ -286,7 +286,7 @@ opacity: .7;
 
 .newregions h1{
 	text-align: center;
-	color: #253698;
+	color: #1C2673;
 }
 
 .regions {
@@ -309,7 +309,7 @@ opacity: .7;
 
 
 .boxtext p{
-	border: 1px solid #253698;
+	border: 1px solid #1C2673;
 	font-family: 'Karla', sans-serif;
 	color: #253698;
 	padding: 2px;
@@ -331,14 +331,14 @@ opacity: .7;
 	
 hr {	
 	border-width: 2px;
-	color: #253698;
+	color: #1C2673;
 	margin: 20px auto;
 	}
 	
 .button {
 	margin: 0 auto 4em auto;
 	width: 200px;
-	background-color:  #253698;
+	background-color:  #1C2673;
 	color: white;
 	text-transform: uppercase;
 	text-align: center;
@@ -403,7 +403,7 @@ hr {
 	}
 	
 	.thaiheader h1{
-	color: #253698;
+	color: #1C2673;
 	margin-top: 0;
 	}
 	
@@ -474,7 +474,7 @@ hr {
 
 
 span.image-title {
-  	background-color: #253698;
+  	background-color: #1C2673;
   	color: white;
   	text-align: center;
   	cursor: pointer;
@@ -496,11 +496,11 @@ span.image-title {
 	  vertical-align: middle;
 	  height: 100%;
 	  font-weight: 400;
-	  font-size: 16px;
-	  padding: 2em;
+	  font-size: 20px;
+	  padding: 1em;
 	  margin: auto;
 	 
-	 	font-family: 'Merriweather', 'Noto Serif', serif;	
+	 	
 	 
 	}
 
@@ -549,7 +549,7 @@ ul.img-list li:hover span.text-content {
 	}	
 
 .majic h1 {
-	color: #253698;
+	color: #1C2673;
 	}
 	
 .featureimg {
@@ -562,7 +562,7 @@ ul.img-list li:hover span.text-content {
 	float: right;
 	}	
 .feature  h1 {
-	color: #253698;
+	color: #1C2673;
 	}
 		
 .feature p {
@@ -576,7 +576,7 @@ ul.img-list li:hover span.text-content {
 	text-transform: uppercase;
 	font-size: 20px;
 	
-	color: #253698;
+	color: #1C2673;
 	}	
 	
 .learnmore {	
@@ -667,16 +667,16 @@ padding-right: 12px;
    margin: 1em 0 1em 0;
 	padding: 12px;
 	text-decoration:none;
-	color: #253698;
+	color: #1C2673;
 	background-color: white;
 	text-transform: uppercase;
 	font-size: 14px;
-	border: 1px solid #253698;
+	border: 1px solid #1C2673;
     }
     
     .nav-button a {
     text-decoration: none;
-    color: #253698;
+    color: #1C2673;
     }
     
   
@@ -687,7 +687,7 @@ padding-right: 12px;
 	.mobile-nav {
 	
 	background-color: white;
-	border-bottom: 1px solid #253698;
+	border-bottom: 1px solid #1C2673;
 	padding: 20px auto;
 	clear: both;
 
@@ -704,7 +704,7 @@ padding-right: 12px;
 		
 	.mobile-nav a {
 		text-decoration: none;
-		color: #253698;
+		color: #1C2673;
 		font-size: 14px;
 		
 		text-transform: uppercase;
