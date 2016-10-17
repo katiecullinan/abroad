@@ -573,14 +573,15 @@ ul.img-list li:hover span.text-content {
 	
 .learnmore a{
 	text-align: center;
-		font-family: 'Merriweather', 'Noto Serif', serif;
-	font-size: 18px;
-	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	
 	color: #253698;
 	}	
 	
 .learnmore {	
 text-align: center;
+
 }
 	
 .disclaimer {
