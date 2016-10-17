@@ -504,6 +504,9 @@ span.image-title {
 	 
 	}
 
+.mobilelabel {
+	display:none;
+	}
 .dishpic a {
     width: 100%;
     display: block;
@@ -653,6 +656,12 @@ padding-right: 12px;
 
 @media only screen and (max-width: 750px) {
 
+	.mobilelabel {
+		display: block;
+		font-weight: 700;
+		color: #1C2673;
+		font-size:20px;
+		}
 	header {
 	
 	}
