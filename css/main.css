@@ -886,13 +886,27 @@ padding-right: 12px;
 	
 .thaipictures{
 	width: 100%;
+	
 	}
+	
+#thaipic1 {
+padding: 2% 0;
+}
+
+#thaipic2 {
+padding: 2% 0;
+}
+
+#thaipic3 {
+padding: 2% 0;
+}
 	
 .thaivideo{
 	width: 100%;
+	
 	}
 	
-	.imageset2, .imageset {
+.imageset2, .imageset {
 	margin:0;
 	}
 	
