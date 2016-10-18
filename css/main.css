@@ -270,15 +270,31 @@ header {
 #box {
 float: right;
 width: 50%;
+margin: 0 auto;
 z-index: -2;
 }
 
+#box img {
+width: 60% !important;
+margin: 0 auto;
+display: block;
+}
 
 	
+#ingredients {
+margin-top: 7em;
+z-index: -100;
+position: absolute;
+width: 55%;
+opacity: .9;
+}	
 .foodimg {
 width: 40%;
 z-index: -2;
 }	
+
+
+
 
 
 .foodimg:hover {
@@ -425,7 +441,7 @@ hr {
 
 	.exploreintro {
 	max-width: 1000px;
-	margin: 0 auto;
+	margin: 0 auto 2em auto;
 	text-align: center;
 	}
 	#map {
@@ -452,17 +468,39 @@ hr {
 	
 	
 	}
-	
-.thaivideo	{
-	width: 50%;
-	
 
+
+.imageset {
+	width: 100%;
+	margin: 2em auto;
+	clear:both;
+	max-width: 1200px;
+	overflow: hidden;
+	}	
+	
+	
+.foodimage1 {
+	width: 50%;
+	z-index: 10;
+	float: left
+	
 	}
 	
-.thaipictures {
-	width: 55%;
+.foodimage1 img {
+	width: 30%;
+	margin-left: 16em;
+		z-index: 10;
+		position: absolute;
+	
+	}
+	
+	.thaipictures {
+	width: 50%;
 	float: right;
 	}	
+	
+	
+	
 	
 #thaipic1 {
 
@@ -470,9 +508,67 @@ hr {
 	padding: 2%;
 
 	}
+		
+.foodimage {
+	width: 50%;
+	z-index: 10;
+	float: right
+	
+	}
+	
+
+		
+.foodimage img {
+	width: 30%;
+	margin: -2em 0 0 -5em ;
+		z-index: 10;
+		position: absolute;
+	}	
+	
+
+	
+.thaivideo	{
+	width: 50%;
+	float: left;
+	
+
+	}
+	
+	.foodimage2 {
+	width: 50%;
+	z-index: 10;
+	float: left
+	
+	}
+	
+.foodimage2 img {
+	width: 25%;
+	margin:-2em 0 0 5em;
+		z-index: 10;
+		position: absolute;
+	
+	}
+	
+	.thaipictures {
+	width: 50%;
+	float: right;
+	}	
+	
+	
+
+	
+.imageset2 {
+	width: 100%;
+	margin: 4em auto;
+	clear:both;
+	max-width: 1200px;
+	overflow: hidden;
+	}	
+	
+
 	
 .thaipictures2 {
-	width: 55%;
+	width: 50%;
 	float: left;
 	}	
 		
@@ -488,7 +584,7 @@ hr {
 #bluepattern {
 	opacity: .3;
 	width: 100%;
-	z-index: -10;
+	z-index: -100;
 	position: absolute;
 	}	
 	
