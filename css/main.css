@@ -845,6 +845,9 @@ padding-right: 12px;
 	
 	}
 	
+	.foodimage2, .foodimage1, .foodimage {
+	display:none;
+	}
 	.mobile-nav li{
 		list-style: none;
 		padding: 12px;
