@@ -172,7 +172,7 @@ header {
 	position:relative;
 	z-index: -1;
 	width:100%;
-	max-width: 1400px;
+	max-width: 1200px;
 
 }
 
@@ -184,7 +184,7 @@ header {
 	
 .introp {
 	width: 90%;
-	max-width: 1400px;
+	max-width: 1200px;
 	margin: auto;
 }
 	
@@ -206,7 +206,7 @@ header {
 
 
 .textsection {
-	max-width: 1400px;
+	max-width: 1200px;
 	margin: 4em auto;
 	clear: both;
 	width:90%;
@@ -217,11 +217,11 @@ header {
 	
 .textsection img {
 	width: 100%;
-	max-width: 1400px;
+	max-width: 1200px;
 	}	
 
 #explanation  {
-	max-width: 1400px;
+	max-width: 1200px;
 	text-align: left;
 	margin-top: 2em;
 	
@@ -255,7 +255,7 @@ header {
 	
 
 #insidebox {
-	max-width: 1400px;
+	max-width: 1200px;
 	text-align: left;
 	
 	float: left;
@@ -460,7 +460,7 @@ hr {
    ========================================================================== */
 
 	.exploreintro {
-	max-width: 1400px;
+	max-width: 1200px;
 	margin: 0 auto 2em auto;
 	text-align: center;
 	}
@@ -494,7 +494,7 @@ hr {
 	width: 100%;
 	margin: 2em auto;
 	clear:both;
-	max-width: 1400px;
+	max-width: 1200px;
 	overflow: hidden;
 	}	
 	
@@ -605,7 +605,7 @@ hr {
 	width: 100%;
 	margin: 4em auto 2em auto;
 	clear:both;
-	max-width: 1400px;
+	max-width: 1200px;
 	overflow: hidden;
 	}	
 	
@@ -613,7 +613,7 @@ hr {
 	width: 100%;
 	margin: 2em auto 2em auto;
 	clear:both;
-	max-width: 1400px;
+	max-width: 1200px;
 	overflow: hidden;
 	}	
 	
@@ -643,7 +643,7 @@ hr {
 	
 	
 .dishes {
-	max-width: 1400px;
+	max-width: 1200px;
 	margin: 0;
 	clear: both;
 	width:100%;
@@ -718,7 +718,7 @@ ul.img-list li:hover span.text-content {
 
 	}
 	
-.guide {max-width: 1400px;
+.guide {max-width: 1200px;
 	margin: 4em auto;
 	clear: both;
 	width:90%;
