@@ -283,7 +283,7 @@ display: block;
 
 	
 #ingredients {
-margin-top: 7em 0 0 -1em;
+margin: 7em 0 0 -1em;
 z-index: -100;
 position: absolute;
 width: 50%;
