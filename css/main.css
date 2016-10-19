@@ -717,6 +717,7 @@ ul.img-list li:hover span.text-content {
 .majic p {
 	font-family: 'Merriweather', 'Noto Serif', serif;
 	font-size: 18px;
+	padding-right: 1em;
 	}
 	
 .majic img {
