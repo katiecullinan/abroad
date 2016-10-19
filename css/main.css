@@ -839,6 +839,10 @@ padding-right: 12px;
 	
 	}
 	
+	#ingredients {
+		display:none;
+		}
+	
 	.textsection {
 	margin: 2em auto;
 	}
