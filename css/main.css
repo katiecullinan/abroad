@@ -340,7 +340,6 @@ opacity: .7;
 	}
 	
 .bottomsection {
-	max-width: 1200px;
 	margin: 4em auto 2em auto;
 	display: block;
 	clear: both;
@@ -1031,7 +1030,7 @@ font-size: 16px;
 	}
 .bottomnav{
 	text-align: center;
-	width: 100%;
+	width: 90%;
 		margin: auto;
 			float: none;
 	}	
