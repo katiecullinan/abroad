@@ -201,7 +201,7 @@ header {
 #pattern {
 	position: absolute;
 	width: 100%;
-	opacity: .8;
+	opacity: .5;
 }
 
 
@@ -558,6 +558,17 @@ hr {
 	
 	}	
 	
+	.majicvideo {
+	width: 50%
+	float: right;
+	overflow:hidden;
+	
+	}	
+	
+	.majicvideo iframe{
+	width: 100%;
+	}
+	
 	
 	.thaipictures p{
 	text-align: center;
@@ -697,6 +708,7 @@ ul.img-list li:hover span.text-content {
 	
 .majic {
 	width: 50%;
+	float: left;
 
 	
 }	
