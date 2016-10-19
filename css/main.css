@@ -184,7 +184,7 @@ header {
 	
 .introp {
 	width: 90%;
-	max-width: 1200px;
+	max-width: 1400px;
 	margin: auto;
 }
 	
@@ -302,7 +302,7 @@ z-index: -2;
 opacity: .7;
 }
 
-.newregions h1{
+.x h1{
 	text-align: center;
 	color: #1C2673;
 }
@@ -454,7 +454,7 @@ hr {
    ========================================================================== */
 
 	.exploreintro {
-	max-width: 1200px;
+	max-width: 1400px;
 	margin: 0 auto 2em auto;
 	text-align: center;
 	}
