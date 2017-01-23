@@ -195,7 +195,7 @@ header {
 	width: 50%;
 	color: white;
 	bottom: 0;
-	font-size: 18px;
+	font-size: 20px;
 }	
 
 #pattern {
@@ -223,7 +223,7 @@ header {
 #explanation  {
 	max-width: 1200px;
 	text-align: left;
-	margin-top: 2em;
+	margin-top: 0px;
 	
 	
 	}
@@ -231,10 +231,10 @@ header {
 
 #explanation p{
 	font-family: 'Merriweather', 'Noto Serif', serif;
-	width: 49%;
+	width: 48%;
 	margin: 0;
 	float: right;
-	font-size: 18px;
+	font-size: 20px;
 	
 	}
 	
@@ -271,7 +271,7 @@ header {
 	
 #insidebox p{
 	font-family: 'Merriweather', 'Noto Serif', serif;
-	font-size: 18px;
+	font-size: 20px;
 	}
 	
 #box {
