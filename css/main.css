@@ -105,13 +105,13 @@ body {
 	}	
 	
 .ba-logo img{
-	width: 120px;
+	width: 140px;
 	float: left;
 }
 
 menu {
 	padding: 0;
-	margin: 1em auto 2em auto;
+	margin: 2em auto 2em auto;
 	width:90%;
 	overflow: hidden;
 }
@@ -139,7 +139,7 @@ menu {
 	text-decoration:none;
 	color: #1C2673;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 16px;
 	
 	}		
 
